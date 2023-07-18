@@ -1,0 +1,43 @@
+#navigationBar {
+    display: flex;
+    flex-direction: row;
+}
+.mytitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navigation {
+    display: flex;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+}
+.icons {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+#social {
+    padding-right: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navigation li {
+    cursor: pointer;
+    text-decoration: none;
+  }
+.inline-block {
+    display: inline-block;
+    padding-right: 50px;
+  }
+  #highlight {
+    text-decoration: underline;
+  }
+  
