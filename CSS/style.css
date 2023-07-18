@@ -1,3 +1,4 @@
+/* header */
 #navigationBar {
     display: flex;
     flex-direction: row;
@@ -22,7 +23,6 @@
     width: 50%;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 10px;
 }
 #social {
     padding-right: 50px;
@@ -36,8 +36,84 @@
 .inline-block {
     display: inline-block;
     padding-right: 50px;
-  }
-  #highlight {
+}
+#highlight {
     text-decoration: underline;
   }
   
+/* body */
+.herosection {
+    position: relative;
+}
+#homebg {
+    border-bottom: 1px solid #EAEAEE;
+    max-height: 600px;
+    height: 70vh;
+    width: 100%;
+}
+.herowritten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#text1 {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    width: 100%;
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+}
+#text2 {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    width: 100%;
+    font-family: 'EB Garamond', serif;
+    font-size: 75px;
+}
+#text3 {
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    width: 100%;
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+}
+
+.tbd {
+    text-align: center;
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAEAEE;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+}
+.footericons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#footersocial {
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footernote {
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+}
