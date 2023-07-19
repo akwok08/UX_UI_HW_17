@@ -2,6 +2,7 @@
 #navigationBar {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 }
 .mytitle {
     display: flex;
@@ -62,7 +63,7 @@ body {
 }
 #text1 {
     position: absolute;
-    top: 75px;
+    top: 65px;
     text-align: center;
     width: 100%;
     font-family: "Leelawadee UI";
@@ -70,7 +71,7 @@ body {
 }
 #text2 {
     position: absolute;
-    top: 95px;
+    top: 85px;
     text-align: center;
     width: 100%;
     font-family: 'EB Garamond', serif;
@@ -78,7 +79,7 @@ body {
 }
 #text3 {
     position: absolute;
-    top: 260px;
+    top: 250px;
     text-align: center;
     width: 100%;
     font-family: "Leelawadee UI";
