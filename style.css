@@ -87,8 +87,10 @@ body {
 }
 .button {
     position: absolute;
-    top: 370px;
-    left: 42%;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     background-color: #346EAA;
     border: none;
