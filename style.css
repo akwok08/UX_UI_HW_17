@@ -12,7 +12,7 @@
 }
 .navigation {
     display: flex;
-    width: 50%;
+    width: 49%;
     align-items: flex-start;
     justify-content: flex-start;
     font-family: "Leelawadee UI";
@@ -20,7 +20,7 @@
 }
 .icons {
     display: flex;
-    width: 50%;
+    width: 52%;
     align-items: center;
     justify-content: flex-end;
 }
@@ -42,6 +42,9 @@
   }
   
 /* body */
+body {
+    margin: 0;
+}
 .herosection {
     position: relative;
 }
@@ -59,27 +62,43 @@
 }
 #text1 {
     position: absolute;
-    top: 90px;
+    top: 75px;
     text-align: center;
     width: 100%;
     font-family: "Leelawadee UI";
-    font-size: 18px;
+    font-size: 20px;
 }
 #text2 {
     position: absolute;
-    top: 90px;
+    top: 95px;
     text-align: center;
     width: 100%;
     font-family: 'EB Garamond', serif;
-    font-size: 75px;
+    font-size: 65px;
 }
 #text3 {
     position: absolute;
-    top: 250px;
+    top: 260px;
     text-align: center;
     width: 100%;
     font-family: "Leelawadee UI";
-    font-size: 18px;
+    font-size: 20px;
+}
+.button {
+    position: absolute;
+    top: 370px;
+    left: 42%;
+    text-align: center;
+    background-color: #346EAA;
+    border: none;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    padding: 20px 70px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 33px;
 }
 
 .tbd {
@@ -91,6 +110,7 @@
 
 
 /* footer */
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -113,7 +133,7 @@
     cursor: pointer;
     text-decoration: none;
 }
-.footernote {
+#footernote {
     font-family: "Leelawadee UI";
     font-size: 18px;
 }
